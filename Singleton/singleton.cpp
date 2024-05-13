@@ -18,9 +18,6 @@ public:
     void businessLogic()
     {
     }
-    std::string value() const{
-        return value_;
-    } 
 };
 
 
