@@ -19,7 +19,7 @@ UML:
 ![image](https://refactoring.guru/images/patterns/diagrams/singleton/structure-pt-br.png)
 
 
- Pseudo-código:
+Pseudo-código:
 
 
 ![image](https://github.com/MonoHenry/engsoftdesign/assets/142462239/54a8d56d-3d7e-4962-b9db-88752d811d5c)
