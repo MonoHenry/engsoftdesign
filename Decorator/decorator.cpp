@@ -17,6 +17,7 @@ class Decorator : public Component {
 
  public:
   Decorator(Component* component) : component_(component) {
+  }
   std::string Operation() const override {
     return this->component_->Operation();
   }
