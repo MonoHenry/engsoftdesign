@@ -11,6 +11,8 @@ Solução:
 
  - Fazer um contrutor padrão privado.
  - Criar um método estático de criação que age como um construtor, chamando o construtor e salvando o objeto em um campo estático.
+
+
 UML:
 ![image](https://refactoring.guru/images/patterns/diagrams/singleton/structure-pt-br.png)
 
