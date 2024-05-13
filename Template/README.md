@@ -4,11 +4,11 @@ O Template Method é um padrão de projeto comportamental que define o esqueleto
 
 Problemas que o Template Method resolve:
 
-Suponha um aplicativo que analisa documentos, de diversos tipos, mesmo a implementação da análise de dados em si sendo diferente, em geral o código entre os diferentes métodos (análise de csv, análise de pdf, por exemplo), há bastante código duplicado(openFile, analyseData, reportData, closeFile), dessa forma, criar uma superclasse, e implementar os meétodos específicos em subclasses, além de resolver o problema da duplicidade de código, ainda possibilita resolver o problema de diversas condicionais com o uso de polimorfismo.
+Suponha um aplicativo que analisa documentos, de diversos tipos, mesmo a implementação da análise de dados em si sendo diferente, em geral o código entre os diferentes métodos (análise de csv, análise de pdf, por exemplo), há bastante código duplicado(openFile, analyseData, reportData, closeFile), dessa forma, criar uma superclasse, e implementar os métodos específicos em subclasses, além de resolver o problema da duplicidade de código, ainda possibilita resolver o problema de diversas condicionais com o uso de polimorfismo.
 
 Solução:
 
-O Template Method sugere que o algoritmo seja quebrado em diversas etapas, transforme essas etapas em métodos, e cloque uma série de chamadas para esses métodos dentro de um método padrão.
+O Template Method sugere que o algoritmo seja quebrado em diversas etapas, transforme essas etapas em métodos, e coloque uma série de chamadas para esses métodos dentro de um método padrão.
 
 UML:
 
