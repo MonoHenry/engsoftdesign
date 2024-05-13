@@ -17,7 +17,7 @@ UML:
 
 Pseudo-código:
 
-![image](https://github.com/MonoHenry/eng softdesign/assets/142462239/6918cfa8-a713-4bb4-baf3-81ef320347c6)
+![image](https://github.com/MonoHenry/engsoftdesign/assets/142462239/6918cfa8-a713-4bb4-baf3-81ef320347c6)
 
 
 Nesse código, primeiramente criamos uma interface chamada componente, com seus métodos públicos, logo abaixo, a classe ConcreteComponent herda a classe componente e a implementa.
